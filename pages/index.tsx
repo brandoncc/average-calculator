@@ -68,6 +68,7 @@ export default function Home() {
       && columnNumber === 0
       && rowNumber > 0
     ) {
+      e.preventDefault();
       setData(removeRow(data, rowNumber));
 
       // Select the last cell of the row above the one we just deleted
