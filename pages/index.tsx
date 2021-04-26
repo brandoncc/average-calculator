@@ -85,7 +85,7 @@ export default function Home() {
   return (
     <div className="container">
       <Head>
-        <title>Average Price Calculatore</title>
+        <title>Average Price Calculator</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
